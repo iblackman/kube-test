@@ -15,6 +15,8 @@ kind create cluster --wait 30s --config config.yaml
 kubectl apply -f manifests
 ```
 
+## Objective
+Able to access `http://<some-host>/foo` and return the pod's name.
 
 ## Clean up
 Delete cluster
